@@ -15,7 +15,7 @@ const ProjectsCard = ({ title, des, src}) => {
                 <div className="flex gap-2">
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray hover:text-designColor duration-cursor-pointer">
                     <a
-              href="https://github.com/Lawal-Ayodele-David"
+              href="https://github.com/Eflowz"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"

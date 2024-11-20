@@ -52,7 +52,7 @@ const emailValidation = () => {
         <div className="flex justify-center items-center text-center">
         <Title 
             title="CONTACT"
-            des="Contact with me"
+            des="Contact me"
         />
         </div>
           <div className='w-full'> 
@@ -90,20 +90,20 @@ const emailValidation = () => {
             errMsg === "Please give your Email!" && "outline-designColor"
          } contactInput`} type="text" />
         </div>
-        <div className='w-1/2 flex flex-col gap-4'>
+        <div className='w-full flex flex-col gap-4'>
         <p className='text-sm text-gray-400 uppercase tracking-wide'>Subject</p>
          <input onChange={(e)=>setSubject(e.target.value)} value={subject} className={`${
             errMsg === "Please give your Subject!" && "outline-designColor"
          } contactInput`} type="text" />
         </div>
-        <div className='w-1/2 flex flex-col gap-4'>
-        <p className='text-sm text-gray-400 uppercase tracking-wide'>Message</p>
+        <div className='w-full flex flex-col gap-4'>
+        <p className='text-md text-gray-400 uppercase tracking-wide'>Message</p>
          <textarea
          onChange={(e)=>setMessage(e.target.value)} value={message}
          className={`${
             errMsg === "Please give your Subject!" && "outline-designColor"
-         } contactTextArena text-sm bg-gray-900 text-gray-400 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white p-10`}
-         cols="30" rows="8"  placeholder="Write your thoughts here..."></textarea>
+         } contactTextArena text-sm bg-gray-900 text-gray-400 rounded-lg border border-gray-300 focus:ring-blue-500  focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white p-10`}
+         col="30" rows="8"  placeholder="Write your thoughts here..."></textarea>
         </div>
         <div className='w-full'>
             <button onClick={handleSend} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent'>Send Message</button>

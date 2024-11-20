@@ -1,12 +1,12 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
+import { SiNextdotjs, SiAngular, SiSolidity, SiVuedotjs, SiNodedotjs, SiPhpmyadmin } from "react-icons/si";
 
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Mouth Trumpeter.", "Music Minister.", "Frontend Engineer"],
+        words: ["Graphics Designer.", "Video Editor.", "Frontend Developer"],
         Loop: true,
         typeSpeed: 20, 
         deleteSpeed: 10,
@@ -15,41 +15,47 @@ const LeftBanner = () => {
     return (
         <div className='w-full lgl:w-1/2 flex flex-col gap-20'>
         <div className='flex flex-col gap-5'>
-            <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+            <h4 className=" text-lg font-normal">WELCOME</h4>
             <h1 className="text-6xl font-bold text-white">
                 Hi, I'm {" "}
-                <span className="text-designColor capitalize">Ayodele Lawal</span>
+                <span className="text-designColor capitalize">Nze Ezekiel Onyekachi</span>
             </h1>
             <h2 className="text-4xl font-bold text-white">a <span>{text}</span>
             <Cursor 
                 cursorBlinking="false"
                 cursorStyle="|"
-                cursorColor="#ff014f" />
+                cursorColor="#ff0149" />
             </h2>
             <p className="text-base font-bodyFont xl:flex-row leading-6 gap-6 xl:gap-0 tracking-wide">
-                I studied Computer Engineering Technology, and specify on the Software Engineering field. To contribute positively to the attainment of the best results in an innovative and technology-driven organization, while adding value to my employer and continuously developing my skills in frontend engineering. 
+            A graduate of Hydrology delving into the tech field to make a difference by leveraging a deep understanding of social systems, analytical skills, and problem-solving to address real-world challenges. Passionate about creating innovative, human-centered solutions, I aim to bridge the gap between technology and society. With a focus on continuous learning and adaptability to emerging trends, I am committed to impacting lives on the go by driving meaningful change and fostering inclusive, technology-driven advancements that benefit diverse fields.
             </p>
         </div>
         <div className='flex flex-col lgl:flex-row justify-between'>
         <div>
                 <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
+            Find me on
             </h2>
-            <div className="flex gap-4">
-                <span className="bannerIcon">
-                    <FaFacebookF />
+            <div className="flex gap-4 mb-6">
+            <a href="https://twitter.com/virus_xxy" target="_blank" rel="noopener noreferrer">
+        <span className="bannerIcon">
+            <FaTwitter />
+        </span>
+        </a>
+            <a href="https://www.linkedin.com/in/nze-ezekiel-4bba13259/" target="_blank" rel="noopener noreferrer">
+        <span className="bannerIcon">
+            <FaLinkedinIn />
+        </span>
+        </a>
+            <a href="https://github.com/Eflowz" target="_blank" rel="noopener noreferrer">
+            <span className="bannerIcon">
+            <FaGithub />
                 </span>
-                <span className="bannerIcon">
-                    <FaTwitter />
-                </span>
-                <span className="bannerIcon">
-                    <FaLinkedinIn />
-                </span>
+        </a>    
             </div>
         </div>
         <div>
                 <h2 className="text-base uppercase font-titleFont mb-4">
-            Basic Skills On
+            Basic Skills in
             </h2>
             <div className="flex gap-4">
                 <span className="bannerIcon">
@@ -59,7 +65,19 @@ const LeftBanner = () => {
                     <SiNextdotjs />
                 </span>
                 <span className="bannerIcon">
-                    <SiTailwindcss />
+                    <SiAngular />
+                </span>
+                <span className="bannerIcon">
+                    <SiVuedotjs />
+                </span>
+                <span className="bannerIcon">
+                    <SiSolidity />
+                </span>
+                <span className="bannerIcon">
+                    <SiNodedotjs />
+                </span>
+                <span className="bannerIcon">
+                    <SiPhpmyadmin />
                 </span>
             </div>
         </div>

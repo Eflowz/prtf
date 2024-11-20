@@ -7,7 +7,7 @@ const RightBanner = () => {
                 
                 <div className="absolute bottom-0 w-[350px] h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center">
                <img 
-                className="w-[300px] h-[400px] lgl:w-[300px] lgl:h-[480px] z-10" 
+                className="w-[300px] h-[400px] lg:w-[300px] lgl:h-[480px] z-10 object-cover" 
                 src={bannerImg}
                 alt="bannerImg"
                 />

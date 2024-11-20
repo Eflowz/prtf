@@ -6,9 +6,9 @@ import Footer from "./components/footer/footer";
 import Navbar from "./components/navbar/navbar";
 import Projects from "./components/projects/projects";
 import Resume from "./components/resume/resume";
-import Testimonial from "./components/testimonial/testimonial";
+// import Testimonial from "./components/testimonial/testimonial";
 import FooterBottom from "./components/footer/footerBottom";
-//import LandingPage from "./components/landingpage/landpage";
+// import LandingPage from "./components/landingpage/landpage";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Features />
       <Projects />
       <Resume />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
       <FooterBottom />

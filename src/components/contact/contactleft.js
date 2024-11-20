@@ -11,26 +11,33 @@ const ContactLeft = () => {
          alt="contactImg"
          />
          <div className='flex flex-col gap-4'>
-        <h3 className='text-3xl font-bold text-white'>Ayodele Lawal</h3>
+        <h3 className='text-3xl font-bold text-white'>Nze Ezekiel</h3>
         <p className='text-lg font-normal text-gray-400'>
-        Frontend Engineer    
+        Full Stack Dev   
         </p>
-        <p className='text-base text-gray-400 tracking-wiide'>You can contact me on either my phone number or email, for more Informations.</p>
+        <p className='text-base text-gray-400 tracking-wiide'>You can contact me on either phone or email for more Informations.</p>
         <p className='text-base text-gray-400 flex items-center gap-2'>
-        Phone: <span className='text-lightText'>+2349030213924</span>    
+        Phone: <span className='text-lightText'>+2348145692458, +2349024976525</span>    
         </p>
         <p className='text-base text-gray-400 flex items-center gap-2'>
-        Email: <span className='text-lightText'>lawalayodeldedavid@gmail.com</span>    
+        Email: <span className='text-lightText'>0x.dev17@gmail.com</span>    
         </p>    
         </div>
         <div className="flex flex-col gap-4">
         <h2 className='text-base uppercase font-titlefont mb-4'>
-        Find me in
+        Find me on
         </h2>
         <div className='flex gap-4'>
-        <span className='bannerIcon'><FaFacebookF /></span>
-        <span className='bannerIcon'><FaTwitter /></span>
-        <span className='bannerIcon'><FaLinkedinIn /></span>
+        <a href="https://twitter.com/virus_xxy" target="_blank" rel="noopener noreferrer">
+        <span className="bannerIcon">
+            <FaTwitter />
+        </span>
+        </a>
+        <a href="https://www.linkedin.com/in/nze-ezekiel-4bba13259/" target="_blank" rel="noopener noreferrer">
+        <span className="bannerIcon">
+            <FaLinkedinIn />
+        </span>
+        </a>
         </div>    
         </div>   
         </div>
